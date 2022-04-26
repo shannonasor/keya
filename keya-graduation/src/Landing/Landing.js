@@ -4,25 +4,25 @@ import Keya from '../img/keya.png';
 import Keya1 from '../img/keya1.png';
 import Keya2 from '../img/keya2.png';
 import Keya3 from '../img/keya3.png';
-import './landing.css';
+import '../assets/landing.css';
 
 
 
 function Landing () {
     return (
-    <div className="App">
-    <header className="App-header">
-      <div className="App-header-divs middle">
+    <div className="Landing">
+    <header className="Landing-header">
+      <div className="Landing-header-divs middle">
       <h1 className="Main-name Main-text">
         Shakeya Bell
       </h1>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="Landing-logo" alt="logo" />
       <h1 className="Main-text Main-graduate">
         Graduate
       </h1>
       </div>
 
-      <div className=" App-header-divs right">
+      <div className=" Landing-header-divs right">
       <div>
       <figure>
       <img src={Keya2} class="img-fill" alt="keya1"/>
