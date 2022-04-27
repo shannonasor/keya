@@ -10,18 +10,20 @@ function App() {
   return (
     <Router>
       <div className="container">
-
-      <div className="main-content">
+        <div className="main-content">   
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
-
-            {/* <Link to="/giveshakeyaadvice">Send Advice And Wishes To Graduate</Link> */}
             <Route path="/giveshakeyaadvice" element={<AdviceCard/>}></Route>
           </Routes>
         </div>
         
         <div className="main-content">
           <DaysTimer />
+        </div>
+
+        <div className="buttons">
+          <Link className="both-buttons button1" to="/giveshakeyaadvice">Send Advice And Wishes To Graduate</Link>
+          <Link className="both-buttons button2" to="/giveshakeyaadvice">Attend Virtual Graduation Party</Link>
         </div>
         
       </div>
