@@ -9,11 +9,13 @@ function App() {
   return (
     <Router>
       <div className="container">
+
       <div className="main-content">
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
           </Routes>
         </div>
+        
         <div className="main-content">
           <DaysTimer />
         </div>
