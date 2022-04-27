@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import DaysCounter from "./DaysCounter";
+import '../assets/daystimer.css';
 
 class DaysTimer extends Component {
   constructor(props) {
@@ -8,9 +9,11 @@ class DaysTimer extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <div className="App-title">Countdown To Graduation</div>
-        <div className="App-date">{this.state.deadline}</div>
+      <div className="days-timer">
+        <div className="days-timer-title-date">
+          <div className="days-timer-title">Countdown To Graduation</div>
+          <div className="days-timer-date">{this.state.deadline}</div>
+        </div>
         <DaysCounter deadline={this.state.deadline} />
       </div>
     );

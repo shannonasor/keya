@@ -1,0 +1,52 @@
+.days-timer {
+   
+    font-family: 'MonteCarlo', cursive;
+    color: royalblue;
+    margin-top: 38em;
+    margin-left: 55em;
+    width: 50%;
+}
+
+.days-timer-title-date {
+    font-size: 3em;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-container {
+    font-size: 2em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+.count {
+    width: 13%;
+    background-color: black;
+    text-align: center;
+    /* text-shadow: 0 0 15px black; */
+  
+    border-radius: 16px;
+    border: 1px solid royalblue;
+    border-width: 8px 0 4px;
+    
+}
+.days {
+    color: #FD4746;
+}
+
+.hours {
+    color: #FACB00;
+}
+
+.minutes {
+    color: #37D0F9;
+}
+
+.seconds {
+    color: #FD4746;
+}
+
+
