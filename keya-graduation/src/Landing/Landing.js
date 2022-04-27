@@ -29,12 +29,12 @@ function Landing () {
             <div>
               
               <figure>
-                <img src={Keya2} class="img-fill" alt="keya1"/>
+                <img src={Keya2} className="img-fill" alt="keya1"/>
                 <figcaption>Caption One</figcaption>
               </figure>
 
               <figure>
-                <img src={Keya1} class="img-fill" alt="keya1"/>
+                <img src={Keya1} className="img-fill" alt="keya1"/>
                 <figcaption>Caption One</figcaption>
               </figure>
             </div>
@@ -42,12 +42,12 @@ function Landing () {
             <div>
 
               <figure>
-                <img src={Keya3} class="img-fill" alt="keya1"/>
+                <img src={Keya3} className="img-fill" alt="keya1"/>
                 <figcaption>Caption One</figcaption>
               </figure>
 
               <figure>
-                <img src={Keya} class="img-fill" alt="keya1"/>
+                <img src={Keya} className="img-fill" alt="keya1"/>
                 <figcaption>Caption One</figcaption>
               </figure>
             </div>

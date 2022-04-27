@@ -4,6 +4,7 @@ import './App.css';
 
 import Landing from './Landing/Landing';
 import DaysTimer from './DaysTimer/DaysTimer';
+import AdviceCard from './AdviceCard/AdviceCard';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <div className="main-content">
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
+
+            {/* <Link to="/giveshakeyaadvice">Send Advice And Wishes To Graduate</Link> */}
+            <Route path="/giveshakeyaadvice" element={<AdviceCard/>}></Route>
           </Routes>
         </div>
         
