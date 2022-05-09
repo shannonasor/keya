@@ -1,6 +1,7 @@
 .Landing {
-    text-align: center;
-    background-color: silver;
+    /* text-align: center; */
+    
+    /* background-color: silver; */
   }
   
   .Landing-logo {
@@ -14,7 +15,11 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
-  
+
+  .Landing-logo {
+    margin-left: 4em;
+  }
+
   .middle {
     width: 40%;
   }
@@ -24,6 +29,8 @@
     font-family: 'MonteCarlo', cursive;
     color: royalblue;
     font-size: 100px;
+    /* padding-left: -10em;
+    border: 10px solid red; */
   }
   
   .Main-name {
@@ -33,6 +40,7 @@
   
   .Main-graduate {
     margin-top: 0;
+    margin-left: .8em;
   }
   
   .right {

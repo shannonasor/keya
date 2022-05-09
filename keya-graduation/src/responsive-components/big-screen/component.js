@@ -1,19 +1,25 @@
+import React from 'react'
 
-import logo from '../img/2022icon.png';
-import Keya from '../img/keya.png';
-import Keya1 from '../img/keya1.png';
-import Keya2 from '../img/keya2.png';
-import Keya3 from '../img/keya3.png';
-import '../assets/landing.css';
+import logo from '../../img/2022icon.png';
+import './styles.css'
 
 
 
-function Landing () {
+
+
+
+function BigScreen() {
     return (
-      <div className="Landing" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'center',
+        // <div className="big-screen">
+        //     <p>Whoops! I'm in big screen mode.</p>
+        //     <p>This is the base of the pyramid</p>
+        // </div>
+
+        <div className="Landing" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',}} >
-        <header className="Landing-header">
+
+<header className="Landing-header">
           
           <div className="Landing-header-divs middle">
             <h1 className="Main-name Main-text">
@@ -59,10 +65,8 @@ function Landing () {
           {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
         </header>
 
-    
-    </div>
+      </div>
     )
-
 }
 
-export default Landing
+export default BigScreen;
