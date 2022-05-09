@@ -10,7 +10,7 @@ import '../assets/landing.css';
 
 function Landing () {
     return (
-      <div className="Landing">
+      <div className="Landing" >
         <header className="Landing-header">
           
           <div className="Landing-header-divs middle">
