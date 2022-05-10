@@ -16,7 +16,7 @@ function LapTop() {
                                         
               <header className="Landing-header-laptop">
                 <div className="Landing-header-div-laptop">
-                   <h1 className="HeaderText Main-name-laptop">Shakeya Bell</h1>
+                   <h1 className="HeaderText-laptop Main-name-laptop">Shakeya Bell</h1>
                    <img src={logo} className="Landing-logo-laptop" alt="logo" />
                    <h1 className="HeaderText-laptop Main-graduate-laptop">Graduate</h1>
                 </div>

@@ -2,32 +2,36 @@
 .Landing-header-laptop {
   min-height: 100vh;
   display: flex;
-
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
 }
 
 .Landing-header-div-laptop {
-  margin-top: 30px;
-  margin-left: 570px;
+  margin-top: 120px;
+  margin-left: 490px;
 }
 
 .HeaderText-laptop {
   font-family: 'MonteCarlo', cursive;
-  color: green;
-  font-size: 1em;
+  /* color: green; */
+  color: white;
+  font-size: 7em;
+
 }
 
 .Main-name-laptop {
- 
+  
 }
 
 .Landing-logo-laptop{
-  height: 60vmin;
+    height: 40vmin;
     pointer-events: none;
-    margin: -200px 0 -200px 100px;
+    margin: -100px 0 -200px 100px;
 }
 
 .Main-graduate-laptop {
-  margin-left: 145px;
+  margin-left: 105px;
+  margin-top: 150px;
 }
 
 

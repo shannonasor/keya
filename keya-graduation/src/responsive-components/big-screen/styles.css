@@ -7,8 +7,8 @@
 }
 
 .Landing-header-div-big-screen {
-  margin-top: 30px;
-  margin-left: 670px;
+  margin-top: 60px;
+  margin-left: 770px;
 }
 
 .HeaderText-big-screen {
@@ -18,9 +18,7 @@
 }
 
 .Main-name-big-screen {
-  
-  font-size: 8em;
-}
+  }
 
 .Landing-logo-big-screen{
   height: 60vmin;

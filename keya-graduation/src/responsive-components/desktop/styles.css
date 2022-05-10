@@ -7,14 +7,15 @@
 }
 
 .Landing-header-div-desktop {
-  margin-top: 30px;
-  margin-left: 600px;
+  margin-top: 120px;
+  margin-left: 590px;
 }
 
 .HeaderText-desktop {
   font-family: 'MonteCarlo', cursive;
-  color: yellow;
-  font-size: 6em;
+  /* color: yellow; */
+  color: white;
+  font-size: 7em;
 }
 
 .Main-name-desktop {
