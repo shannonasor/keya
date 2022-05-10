@@ -8,9 +8,11 @@ import DaysTimer from './DaysTimer/DaysTimer';
 import AdviceCard from './AdviceCard/AdviceCard';
 
 
-import { Desktop } from "./responsive-components/desktop/component";
-import { Laptop } from "./responsive-components/laptop/components";
+import Desktop from "./responsive-components/desktop/component";
+import Laptop from "./responsive-components/laptop/component";
 import BigScreen from "./responsive-components/big-screen/component";
+import MedScreen from "./responsive-components/med-screen/component";
+
 import { Mobile } from "./responsive-components/mobile/components";
 import { TabletMobile } from "./responsive-components/tablet-mobile/components";
 
@@ -32,12 +34,19 @@ function App() {
     query: "(min-device-width: 1200px)",
   });
 
+
+  const isMedScreen = useMediaQuery({
+    query: "(min-device-width: 1250px )",
+  });
+
   const isBigScreen = useMediaQuery({
-    query: "(min-device-width: 1201px )",
+    query: "(min-device-width: 1450px )",
   });
 
   if (isBigScreen) {
     return <BigScreen />
+    } else if (isMedScreen) {
+      return  <MedScreen />
     } else if (isDesktop) {
         return  <Desktop />
       } else if (isLaptop) {

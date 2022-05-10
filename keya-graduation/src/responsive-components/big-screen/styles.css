@@ -8,10 +8,10 @@
 
 .Landing-header-div-big-screen {
   margin-top: 30px;
-  margin-left: 570px;
+  margin-left: 670px;
 }
 
-.HeaderText {
+.HeaderText-big-screen {
   font-family: 'MonteCarlo', cursive;
   color: white;
   font-size: 8em;
@@ -35,7 +35,7 @@
 
 /* Timer */
 
-.days-timer {
+.days-timer-big-screen {
   font-family: 'MonteCarlo', cursive;
   color: white;
   margin-top: -20em;
@@ -45,7 +45,7 @@
 
 
 
-.days-timer-title-date {
+.days-timer-title-date-big-screen {
   font-size: 3em;
   font-weight: bolder;
   display: flex;

@@ -1,10 +1,89 @@
-.laptop {
-    width: 500px;
-    height: 100px;
-    background: #9674cb;
-    margin: 0 auto;
-  }
 
-.laptop p {
-  padding-top: 2%;  
+.Landing-header-laptop {
+  min-height: 100vh;
+  display: flex;
+
 }
+
+.Landing-header-div-laptop {
+  margin-top: 30px;
+  margin-left: 570px;
+}
+
+.HeaderText-laptop {
+  font-family: 'MonteCarlo', cursive;
+  color: green;
+  font-size: 1em;
+}
+
+.Main-name-laptop {
+ 
+}
+
+.Landing-logo-laptop{
+  height: 60vmin;
+    pointer-events: none;
+    margin: -200px 0 -200px 100px;
+}
+
+.Main-graduate-laptop {
+  margin-left: 145px;
+}
+
+
+/* Timer */
+
+.days-timer-laptop {
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  margin-top: -20em;
+  margin-left: 1em;
+  width: 50%;
+}
+
+
+
+.days-timer-title-date-laptop {
+  font-size: 3em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.countdown-container {
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+.count {
+  width: 13%;
+  background-color: black;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid royalblue;
+  border-width: 8px 0 4px;
+  padding: .5em .3em;
+}
+
+.days {
+  color: #FD4746;
+}
+
+.hours {
+  color: #FACB00;
+}
+
+.minutes {
+  color: #37D0F9;
+}
+
+.seconds {
+  color: #FD4746;
+}
+
+
