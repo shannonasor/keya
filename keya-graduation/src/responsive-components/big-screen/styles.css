@@ -1,9 +1,83 @@
-.big-screen {
-    width: 600px;
-    height: 100px;
-    background: #7c52bf;
-    margin: 0 auto;  
-  }
-  .big-screen p {
-    padding-top: 2%;
-  }
+
+.Landing-header-big-screen {
+  min-height: 100vh;
+  display: flex;
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.Landing-header-div-big-screen {
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+.HeaderText {
+  font-family: 'MonteCarlo', cursive;
+  color: royalblue;
+  font-size: 8em;
+}
+
+.Main-name-big-screen {
+  
+  font-size: 8em;
+}
+
+.Landing-logo-big-screen{
+  height: 60vmin;
+    pointer-events: none;
+    margin: -200px 0 -200px 100px;
+}
+
+.Main-graduate-big-screen {
+  margin-left: 145px;
+}
+.Landing {
+  /* text-align: center; */
+  
+  /* background-color: silver; */
+}
+
+/* .Landing-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.Landing-header {
+  border: 10px solid red;
+
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Landing-logo {
+  margin-left: 4em;
+}
+
+/* .middle {
+  width: 40%;
+} */
+ */
+
+.Main-text {
+  /* font-family: 'MonteCarlo', cursive;
+  color: royalblue;
+  font-size: 7em; */
+  /* padding-left: -10em;
+  border: 10px solid red; */
+}
+
+.Main-name {
+  /* margin-bottom: 0; */
+
+}
+
+/* .Main-graduate {
+  margin-top: 0;
+  margin-left: .8em;
+} */
+
+/* .right {
+  width: 60%;
+} */
