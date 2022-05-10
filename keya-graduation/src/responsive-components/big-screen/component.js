@@ -1,5 +1,6 @@
 import React from 'react'
 
+import DaysTimer from './DaysTimer/DaysTimer';
 import logo from '../../img/2022icon.png';
 import './styles.css'
 
@@ -22,6 +23,10 @@ function BigScreen() {
           {/*2022 Icon attribute*/}
           {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
               </header>
+
+              <div className="main-content">
+                <DaysTimer />
+              </div>
 
       </div>
     )

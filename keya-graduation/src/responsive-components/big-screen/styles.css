@@ -8,12 +8,12 @@
 
 .Landing-header-div-big-screen {
   margin-top: 30px;
-  margin-left: 500px;
+  margin-left: 570px;
 }
 
 .HeaderText {
   font-family: 'MonteCarlo', cursive;
-  color: royalblue;
+  color: white;
   font-size: 8em;
 }
 
@@ -31,53 +31,61 @@
 .Main-graduate-big-screen {
   margin-left: 145px;
 }
-.Landing {
-  /* text-align: center; */
-  
-  /* background-color: silver; */
-}
 
-/* .Landing-logo {
-  height: 30vmin;
-  pointer-events: none;
-}
 
-.Landing-header {
-  border: 10px solid red;
+/* Timer */
 
-  min-height: 100vh;
-  display: flex;
-  font-size: calc(10px + 2vmin);
+.days-timer {
+  font-family: 'MonteCarlo', cursive;
   color: white;
+  margin-top: -20em;
+  margin-left: 1em;
+  width: 50%;
 }
 
-.Landing-logo {
-  margin-left: 4em;
+
+
+.days-timer-title-date {
+  font-size: 3em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
 }
 
-/* .middle {
-  width: 40%;
-} */
- */
-
-.Main-text {
-  /* font-family: 'MonteCarlo', cursive;
-  color: royalblue;
-  font-size: 7em; */
-  /* padding-left: -10em;
-  border: 10px solid red; */
+.countdown-container {
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
 }
 
-.Main-name {
-  /* margin-bottom: 0; */
-
+.count {
+  width: 13%;
+  background-color: black;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid royalblue;
+  border-width: 8px 0 4px;
+  padding: .5em .3em;
 }
 
-/* .Main-graduate {
-  margin-top: 0;
-  margin-left: .8em;
-} */
+.days {
+  color: #FD4746;
+}
 
-/* .right {
-  width: 60%;
-} */
+.hours {
+  color: #FACB00;
+}
+
+.minutes {
+  color: #37D0F9;
+}
+
+.seconds {
+  color: #FD4746;
+}
+
+
