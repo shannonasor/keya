@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link, } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import './App.css';
 
