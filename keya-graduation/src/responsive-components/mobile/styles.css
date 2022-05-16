@@ -14,13 +14,12 @@
   /* font-size: calc(10px + 2vmin);
   color: white; */
 text-align: center;
-border: 2px solid green;
+
 
 }
 
 .Landing-header-div-mobile {
   margin-left: 0;
-  border: 2px solid red;
   max-width: 90%;
   margin: auto;
 }
@@ -52,44 +51,46 @@ border: 2px solid green;
 /* Timer */
 
 .days-timer-mobile {
-  /* font-family: 'MonteCarlo', cursive;
+  font-family: 'MonteCarlo', cursive;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -20em;
-  margin-left: 2em; */
+  margin-top: -25em;
+  /* margin-left: 2em; */
 }
 
 
 
 .days-timer-title-date-mobile {
-  /* font-size: 2em;
-  font-weight: bolder; */
-  /* display: flex;
-  flex-direction: column; */
+  font-size: 2.5em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  margin-bottom: 1em;
  
-  /* margin-bottom: 1em;
-  border: 2px solid red;
-  max-width: 65%; */
+  
 
 }
 
 .countdown-container-mobile {
-  /* font-size: 1.5em;
+  font-size: 1.5em;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
-  border: 2px solid red; */
+  width: 100%;
 }
 
 .count-mobile {
-  /* width: 11%;
   background-color: black;
+  width: 23%;
   text-align: center;
-  border-radius: 16px; */
-  /* border: 1px solid royalblue; */
+  border-radius: 16px;
+  border: 1px solid royalblue;
+  border-width: 5px 0 4px;
+  padding: .3em em;
   /* border: 1px solid purple;
 
   border-width: 8px 0 4px;
