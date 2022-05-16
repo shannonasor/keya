@@ -63,14 +63,16 @@
   justify-content: space-around;
 }
 
-.count {
+.count-desktop {
   width: 13%;
   background-color: black;
   text-align: center;
   border-radius: 16px;
-  border: 1px solid royalblue;
+  /* border: 1px solid royalblue; */
+  border: 1px solid yellow;
+
   border-width: 8px 0 4px;
-  padding: .5em .3em;
+  padding: .5em .6em;
 }
 
 .days {

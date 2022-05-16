@@ -13,8 +13,8 @@ import Laptop from "./responsive-components/laptop/component";
 import BigScreen from "./responsive-components/big-screen/component";
 import MedScreen from "./responsive-components/med-screen/component";
 
-import { Mobile } from "./responsive-components/mobile/components";
-import { TabletMobile } from "./responsive-components/tablet-mobile/components";
+import Mobile from "./responsive-components/mobile/component";
+import TabletMobile from "./responsive-components/tablet-mobile/component";
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
   });
 
   const isTabletDevice = useMediaQuery({
-    query: "(min-device-width: 768px)",
+    query: "(min-device-width: 890px)",
   });
 
   const isLaptop = useMediaQuery({

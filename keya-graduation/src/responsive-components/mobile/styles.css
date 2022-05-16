@@ -1,7 +1,95 @@
-.mobile {
-    width: 80px;
-    height: 80px;
-    margin: 0% auto;
-    border-radius: 50%;
-    box-shadow: 15px 15px 0 0 #e4dcf2;
+
+.Landing-header-mobile {
+  min-height: 100vh;
+  display: flex;
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
 }
+
+.Landing-header-div-mobile {
+  margin-top: 300px;
+  margin-left: 400px;
+}
+
+.HeaderText-mobile {
+  font-family: 'MonteCarlo', cursive;
+  color: rgb(194, 255, 192);
+  /* color: white; */
+  font-size: 4.5em;
+
+}
+
+.Main-name-mobile {
+  
+}
+
+.Landing-logo-mobile{
+    height: 20vmin;
+    pointer-events: none;
+    margin: -500px 0 -100px 85px;
+}
+
+.Main-graduate-mobile {
+  margin-left: 65px;
+  margin-top: 90px;
+}
+
+
+/* Timer */
+
+.days-timer-mobile {
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  margin-top: -20em;
+  margin-left: 1em;
+  width: 50%;
+}
+
+
+
+.days-timer-title-date-mobile {
+  font-size: 3em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.countdown-container-mobile {
+  font-size: 1.5em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+.count-mobile {
+  width: 11%;
+  background-color: black;
+  text-align: center;
+  border-radius: 16px;
+  /* border: 1px solid royalblue; */
+  border: 1px solid purple;
+
+  border-width: 8px 0 4px;
+  padding: .5em .9em;
+}
+
+.days {
+  color: #FD4746;
+}
+
+.hours {
+  color: #FACB00;
+}
+
+.minutes {
+  color: #37D0F9;
+}
+
+.seconds {
+  color: #FD4746;
+}
+
+

@@ -43,22 +43,22 @@ class DaysCounter extends Component {
     return (
       <div className="countdown-container">
 
-        <div className="count days">
+        <div className="count-desktop days">
           <div className="timer-days">{this.leading0(this.state.days)}</div>
           <div>Days</div>
         </div>
 
-        <div className="count hours">
+        <div className="count-desktop hours">
           <div className="timer-hours">{this.leading0(this.state.hours)} </div>
           <div>Hours</div>
         </div>
 
-        <div className="count minutes">
+        <div className="count-desktop minutes">
           <div className="timer-minutes">{this.leading0(this.state.minutes)}</div>
           <div>Minutes</div>
         </div>
 
-        <div className="count seconds">
+        <div className="count-desktop seconds">
           <div className="timer-seconds">{this.leading0(this.state.seconds)} </div>
           <div>Seconds</div>
         </div>
