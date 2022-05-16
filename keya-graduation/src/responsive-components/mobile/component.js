@@ -11,7 +11,7 @@ import './styles.css'
 
 function TabletMobile() {
     return (
-        <div className="Landing-mobile" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'center',
+        <div className="Landing-mobile" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'left 35% bottom',
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
                                         
               <header className="Landing-header-mobile">
